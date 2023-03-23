@@ -2,6 +2,7 @@
 
  
 ABOUT THE ORGANISATION 
+
 Edfling is a company that offers a variety of services including career counseling, skill development courses, and dating services. To enhance its services, the company has integrated AI technology in the form of a machine learning (ML) model. This integration allows for more personalized and accurate suggestions to clients.
 
 In career counseling, the ML model takes into account a wide range of factors to suggest the best career paths for individuals. The model considers skills, experience, personal preferences, and job market trends to provide up-to-date recommendations. For skill development courses, the ML model suggests the best options based on an individual's existing skills, career goals, and learning style.
