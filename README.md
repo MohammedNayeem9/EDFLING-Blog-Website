@@ -1,4 +1,6 @@
-# EDFLING-Blog-Website 
+# EDFLING-Blog-Website
+
+ 
 ABOUT THE ORGANISATION 
 Edfling is a company that offers a variety of services including career counseling, skill development courses, and dating services. To enhance its services, the company has integrated AI technology in the form of a machine learning (ML) model. This integration allows for more personalized and accurate suggestions to clients.
 
