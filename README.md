@@ -9,6 +9,7 @@ In dating services, the ML model uses data analysis and algorithms to match indi
 At Edfling, the focus is always on providing high-quality services that deliver real results. Whether you're looking to advance your career, acquire new skills, or find love, Edfling is here to help you achieve your goals. So if you're ready to take control of your life and reach your full potential, come and explore what Edfling has to offer!
 
 CONTRIBUTORS 
+
 Ridhi Ranjan: https://www.linkedin.com/in/ridhi-ranjan-048452146
 
 Nayeem Mohammed:
