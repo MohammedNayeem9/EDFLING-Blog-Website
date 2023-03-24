@@ -355,6 +355,7 @@ body{
 }
 .rpink{
   color:#eb1e3d;
+  
 }
 .rtable-1{
   width:100%;
@@ -381,6 +382,7 @@ body{
     width: 9rem;
 }
 .rblack2{
+	margin-left:3rem;
   color:black;
 }
 .rpink2{
