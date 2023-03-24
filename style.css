@@ -902,7 +902,7 @@ text-decoration: none;
 }
 .owl-carousel .owl-item img {
   display: block;
-  width: 17%;
+  width: 100%;
   float: center;
   border: 5px solid #fff;
   border-radius: 20px;
