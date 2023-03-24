@@ -903,7 +903,7 @@ text-decoration: none;
 	transition: 1s ease;
 }
 .owl-carousel .owl-item img {
-  display: block;
+  display: flex;
   width: 100%;
   float: center;
   border: 5px solid #fff;
