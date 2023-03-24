@@ -903,7 +903,7 @@ text-decoration: none;
 .owl-carousel .owl-item img {
   display: block;
   width: 17%;
-  float: left;
+  float: center;
   border: 5px solid #fff;
   border-radius: 20px;
   margin-left: 54px;
