@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'NATO Sans HK';
+    src: url('path/to/nato-sans-hk.woff2') format('woff2'), /* Modern Browsers */
+         url('path/to/nato-sans-hk.woff') format('woff'); /* Older Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 
 /*prasanthi*/ 
 .pnavbar{
@@ -521,6 +529,12 @@ max-width: 100%;
   margin-left: 0;
 }
 
+.sessionimg{
+  height: 87px;
+  width: 87px;
+  padding: 1rem;
+}
+	
 .sessions-container {
   flex-direction: column;
   align-items: center;
@@ -551,7 +565,7 @@ max-width: 100%;
 
 
 .second{
-  background-image: url('img/Ellipse\ 1.png');
+  background-image: url('Career Graphics/Ellipse 1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
