@@ -12,7 +12,7 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color:#f4f2f2;
+background-color:#ede9e9;
 color:black;
 padding: 10px;
 }
@@ -49,7 +49,7 @@ color:#fff/* Change button color on hover */
 }
 
 .pbutton {
-background-color:#f4f2f2;
+background-color:#fdfcfc;
 color: #dc3f3f;
 border: none;
 border-radius: 20px;
