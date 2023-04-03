@@ -178,9 +178,13 @@ margin-top: 20px;
   margin-top:200px;
   padding-left:100px;
   margin-bottom:100px;
+  width: 50%;
+  float: left;
 }
 .rcontent3{
   margin-top:200px;
+  width:50%;
+  float:right;
 }
 .rBanner-text{
   font-size:20px;
@@ -282,7 +286,7 @@ margin-top: 20px;
     display: flex;
     }
     .rarrow{
-      height: 5px;
+      height: 15px;
       transform:rotate(20deg);
       margin-right:8px;
     }
@@ -294,13 +298,19 @@ margin-top: 20px;
     
     .rcontent2{
       margin-top:100px;
-      padding-left:100px;
+      padding-left:45px;
       margin-bottom:100px;
       display: flex;
+      width: 50%;
     }
     .rcontent3{
-      margin-top:50px;
-      display: block;
+      margin-top:250px;
+width: 50%;
+display: flex;
+flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: nowrap;
     }
     .rBanner-text{
       font-size:5px;
@@ -311,8 +321,13 @@ margin-top: 20px;
       color:white;
        padding: 5px 26px 10px 25px;
       margin-left:20px;
-      margin-top:20px;
+      margin-top:10px;
   
+    }
+    .happy{
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-top: 5px;
     }
     .rbox{
       opacity:0;
@@ -324,10 +339,11 @@ margin-top: 20px;
       color:white;
       padding: 11px 26px 10px 25px;
     }
-    .rtext-wrapper{
-      margin-top:20px;
-      margin-left:10px;
-      margin-right: 10px;
+   
+    .rbox{
+      font-size: 25px;
+      margin-left: 5px;
+      margin-top: -5px;
     }
     .b1{
       animation: ani1 15s infinite;
@@ -374,15 +390,15 @@ margin-top: 20px;
     .rparagraph{
       margin-top:40px;
       margin-bottom:50px;
-      font-size:10px;
+      font-size:15px;
     }
     
     .rbtn{
       background:#ff8c00;
       border-radius: 13px;
       color: #ffffff;
-      font-size: 20px;
-      padding: 15px 60px 15px 60px;
+      font-size: 15px;
+      padding: 10px 60px 10px 60px;
       text-decoration: none;
       text-align: center;
       display: inline-block;
@@ -390,32 +406,127 @@ margin-top: 20px;
       cursor: pointer;
       border-color: #ff8c00;
     }
-    .rcontainer-3{
-      margin-top: 400px;
+    
+    .rimg-area {
+      margin-left:100px;
+      margin-top:20px;
+          height: auto;
+        width: 10%;
+        border-radius: 50%;
+        border: 10px solid #eb1e3d;
+        display: flex;
+        opacity: 0;
+    }
+    .rimg-area img {
+            height: auto;
+        width:10%;
+        margin-left:80px;
+      margin-top:110px;
+      margin-bottom:100px;
+      opacity: 0;
+    }
+    .rone{
+      position:absolute;
+      height: 100px;
+      width: 100px;
+      margin-left:10px;
+      margin-top:-30px;
+      padding: 20px 20px 20px 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.18);
+    }
+    .rtwo{
+      position:absolute;
+      height: 100px;
+      width: 100px;
+      margin-left:520px;
+      margin-top:100px;
+      padding: 20px 20px 20px 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.18);
+    }
+    
+    .rthree{
+      position:absolute;
+      height: 100px;
+      width: 100px;
+      margin-left:520px;
+      margin-top:340px;
+      padding: 20px 20px 20px 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.18);
+      opacity: 0;
+    }
+    .rfour{
+      position:absolute;
+      height: 100px;
+      width: 100px;
+      margin-left:310px;
+      margin-top:440px;
+      padding: 20px 20px 20px 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.18);
+    }
+    .rfive{
+      position:absolute;
+      height: 100px;
+      width: 100px;
+      margin-left:100px;
+      margin-top:100px;
+      padding: 20px 20px 20px 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.18);
+      opacity: 0;
+    }
+    .rsix{
+      position:absolute;
+     height: 100px;
+        width: 100px;
+      margin-left:100px;
+      margin-top:340px;
+      padding: 20px 20px 20px 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.18);
+    }
+    .rblank-space{
+      margin-top:100px;
+      position:inline;
+    }
+    .rtransperent{
+      opacity:0;
     }
 }
 /*right section*/
 .rimg-area {
   margin-left:100px;
   margin-top:20px;
-      height: 500px;
-    width: 500px;
+      height: 66%;
+    width: 66%;
     border-radius: 50%;
     border: 40px solid #eb1e3d;
+    display: flex;
 }
 .rimg-area img {
-        height: 200px;
-    width: 280px;
+        height: 66%;
+    width: 66%;
     margin-left:80px;
   margin-top:110px;
   margin-bottom:100px;
+  display: flex;
 }
 .rone{
+  display: flex;
   position:absolute;
-  height: 100px;
-  width: 100px;
-  margin-left:310px;
-  margin-top:-30px;
+  height: 15%;
+  width: 7%;
+  margin-left:20%;
+  margin-top:-1%;
   padding: 20px 20px 20px 20px;
   background: #fff;
   border-radius: 10px;
@@ -423,10 +534,10 @@ margin-top: 20px;
 }
 .rtwo{
   position:absolute;
-  height: 100px;
-  width: 100px;
-  margin-left:520px;
-  margin-top:100px;
+  height: 15%;
+  width: 7%;
+  margin-left:35%;
+  margin-top:10%;
   padding: 20px 20px 20px 20px;
   background: #fff;
   border-radius: 10px;
@@ -435,10 +546,10 @@ margin-top: 20px;
 
 .rthree{
   position:absolute;
-  height: 100px;
-  width: 100px;
-  margin-left:520px;
-  margin-top:340px;
+  height: 15%;
+  width: 7%;
+  margin-left:35%;
+  margin-top:20%;
   padding: 20px 20px 20px 20px;
   background: #fff;
   border-radius: 10px;
@@ -446,10 +557,10 @@ margin-top: 20px;
 }
 .rfour{
   position:absolute;
-  height: 100px;
-  width: 100px;
-  margin-left:310px;
-  margin-top:440px;
+  height: 15%;
+  width: 7%;
+  margin-left:20%;
+  margin-top:28%;
   padding: 20px 20px 20px 20px;
   background: #fff;
   border-radius: 10px;
@@ -457,10 +568,10 @@ margin-top: 20px;
 }
 .rfive{
   position:absolute;
-  height: 100px;
-  width: 100px;
-  margin-left:100px;
-  margin-top:100px;
+  height: 15%;
+  width: 7%;
+  margin-left:5%;
+  margin-top:10%;
   padding: 20px 20px 20px 20px;
   background: #fff;
   border-radius: 10px;
@@ -468,10 +579,10 @@ margin-top: 20px;
 }
 .rsix{
   position:absolute;
- height: 100px;
-    width: 100px;
-  margin-left:100px;
-  margin-top:340px;
+ height: 15%;
+    width: 7%;
+  margin-left:5%;
+  margin-top:20%;
   padding: 20px 20px 20px 20px;
   background: #fff;
   border-radius: 10px;
@@ -517,7 +628,7 @@ height: 9rem;
   width: 9rem;
 }
 .mid{
-margin-left:45%;
+margin-left:-10%;
 }
 .rblack2{
 color:black;
@@ -544,10 +655,77 @@ margin-bottom:10rem;
 padding:0 7.2rem;
 }
 @media only screen and (max-width: 768px) and (min-width: 200px){
-.rcontent2{
-  width:100px;
-  height: 80px;
-}
+  .rcontainer-3{
+    margin-top: 0px;
+  }
+  .row-1{
+    width: 95%;
+    margin-left:-30px;
+  }
+  .rblack{
+    margin-left:1rem;
+    }
+    .rpink{
+    color:#eb1e3d;
+    }
+    .rtable-1{
+    width:100%;
+    text-align:center;
+      border-collapse: separate;
+      border-spacing: 0 2rem;
+    font-size:2rem;
+    color:#eb1e3d;
+    }
+    .rblocks{
+    color:white;
+    background-color:#eb1e3d;
+    border-radius:0.5rem;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    box-shadow:-0.3rem -0.3rem #fcac3c;
+    font-size:1rem;
+    
+    }
+    .rsteps{
+    font-size:3rem;
+    }
+    .rfigure1 ,.rfigure2, .rfigure3{
+    height: 5rem;
+      width: 5rem;
+    }
+
+    .rblack2{
+    color:black;
+    font-size: 20px;
+    }
+    .rpink2{
+    color:#eb1e3d;
+    }
+    .c{
+      font-size: 15px;
+      margin-left: 2px;
+    }
+    .column-1 {
+    float: left;
+    width: 33.33%;
+ display: inline;
+    }
+    .row-1:after:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    .rstep-1,.rstep-2, .rstep-3{
+    padding:1rem 0;
+    text-align:center;
+    margin-bottom:10rem;
+    }
+    .rstep-1{
+      margin-left: -10px;
+    }
+    .rdesc{
+    padding:0 7.2rem;
+    font-size: 10px;
+    }
 }
 /*nayeem*/
 @font-face {
