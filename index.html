@@ -8,28 +8,57 @@
   	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	
+     <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  </script>
-  <!---------contribution by prasanthi-->
-  <nav class="pnavbar">
+<!---------contribution by prashanthi-->
+<nav class="pnavbar">
     <div class="logo">
-      <img src="Career Graphics/edfling.jpg" alt="Logo">
-    </div>
-    <div class="pnav-content">
-      <a href="#Experts">Experts</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#Blog">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#Founders Program">Founders Program</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#For Business">For Business</a>
-    </div>
-    <div class="pnav-buttons">
-      <button class="pbutton">Login</button>
-      <button class="pbutton">Sign Up</button>
+      <img src="Career Graphics/edfling.jpg" alt="Logo"></div>
+     <ul class="links">
+        <div class="pnav-content">
+         <li><a href="Experts">Experts</a></li>
+          <li><a href="Blog">Blog</a></li>
+          <li><a href="Founders Program">Founders Program</a></li>
+          <li><a href="For Business">For Business</a></li>
+            
+        </ul>
+        <div class="action">
+        <a href="#" class="action_btn">Sign up</a> 
+        <a href="#" class="action_btn">Login</a>
+      </div>
+        <div class = "toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="Experts">Experts</a></li>
+            <li><a href="Blog">Blog</a></li>
+            <li><a href="Founders Program">Founders Program</a></li>
+            <li><a href="For Business">For Business</a></li>
+            <li><a href="#" class="action_btn">Sign up</a></li>
+            <li><a href="#" class="action_btn">Login</a></li>
+       </div>
+      </nav>
+     
+       <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleBtn.onclick = function()
+        {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
       
-    </div>
-  </nav>
-
+            toggleBtnIcon.classList = isOpen?'fa-solid fa-xmark':'fa-solid fa-bars'
+            }
+           </script>
+    
+                                  <!--Main Content-->
   <div class="pmain-content">
     <div class="pleft-content">
       <h2><span class="pcircle">Get Help. Get Better.</span></h2>
@@ -38,6 +67,7 @@
         Get the Support You Need, Right Here, Right Now. </p>
         <br>
         <br>
+        
       <button class="pbtn">Chat Now</button>&nbsp;&nbsp;
       <button class="pbtn1">Book Appointment</button><br><br>
      <li class="pcolor">
@@ -48,6 +78,7 @@
       </div>
     </div>
     
+
 <!---------contribution by ridhi-->
   <div class="rpattern"><span></span></div>
   <img class="rcircle" src="Career Graphics/My project-1.png" alt="">
@@ -330,11 +361,13 @@ judge you</td></tr>
     <button type="submit" class="subscribe-btn">Subscribe</button>
   </form>
 </div>-->
-<!--contribution by prashanthi-->
+
+	<!--contribution by prashanthi-->
+	
 <div class="p2container">
   <header>
-   <h2> <span class="p2ed">EDFLING</span>
-    <span class="ben">BENEFITS</span> </h2>
+   <h2> EDFLING</span>
+    <span class="p2ben">BENEFITS</span> </h2>
   </header>
 
 <table class="table-2">
