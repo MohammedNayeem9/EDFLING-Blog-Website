@@ -87,8 +87,8 @@
     }
     .help{
     font-size: 30px;
-    margin-top:12%;
-    }
+    margin-top:14%;
+    
     .pright-content img {
     width: 100%;
     height: auto;
@@ -139,7 +139,7 @@
   z-index: -1;
 }
 .pcircle{
-  font-size:57px;
+  font-size:54px;
   font-display: block;
    position: absolute;
    padding-top:1%;
