@@ -8,36 +8,67 @@
   	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  </script>
-  <!---------contribution by prasanthi-->
-  <nav class="pnavbar">
+<!---------contribution by prashanthi-->
+<nav class="pnavbar">
     <div class="logo">
-      <img src="Career Graphics/edfling.jpg" alt="Logo">
-    </div>
-    <div class="pnav-content">
-      <a href="#Experts">Experts</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#Blog">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#Founders Program">Founders Program</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#For Business">For Business</a>
-    </div>
-    <div class="pnav-buttons">
-      <button class="pbutton">Login</button>
-      <button class="pbutton">Sign Up</button>
+      <img src="Career Graphics/edfling.jpg" alt="Logo"></div>
+     <ul class="links">
+        <div class="pnav-content">
+         <li><a href="Experts">Experts</a></li>
+          <li><a href="Blog">Blog</a></li>
+          <li><a href="Founders Program">Founders Program</a></li>
+          <li><a href="For Business">For Business</a></li>
+            
+        </ul>
+        <div class="action">
+        <a href="#" class="action_btn">Sign up</a> 
+        <a href="#" class="action_btn">Login</a>
+      </div>
+        <div class = "toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="Experts">Experts</a></li>
+            <li><a href="Blog">Blog</a></li>
+            <li><a href="Founders Program">Founders Program</a></li>
+            <li><a href="For Business">For Business</a></li>
+            <li><a href="#" class="action_btn">Sign up</a></li>
+            <li><a href="#" class="action_btn">Login</a></li>
+       </div>
+      </nav>
+     
+       <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleBtn.onclick = function()
+        {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
       
-    </div>
-  </nav>
-
+            toggleBtnIcon.classList = isOpen?'fa-solid fa-xmark':'fa-solid fa-bars'
+            }
+           </script>
+    
+                                  <!--Main Content-->
   <div class="pmain-content">
     <div class="pleft-content">
-      <h2><span class="pcircle">Get Help. Get Better.</span></h2>
+      <div class="circles"></div><div class="circles1"></div>
+      <span class="pcircle">Get Help. Get Better.</span>
+      <br>
       <br>
       <p class="help"> No Matter What's Troubling You.<br>
         Get the Support You Need, Right Here, Right Now. </p>
         <br>
         <br>
+        
       <button class="pbtn">Chat Now</button>&nbsp;&nbsp;
       <button class="pbtn1">Book Appointment</button><br><br>
      <li class="pcolor">
@@ -48,14 +79,15 @@
       </div>
     </div>
     
+
 <!---------contribution by ridhi-->
   <div class="rpattern"><span></span></div>
   <img class="rcircle" src="Career Graphics/My project-1.png" alt="">
     <Div class="rcontainer-2">        
-        <div style="width: 50%; float:left">
+        
          <div class="rcontent2">
           <div class="rBanner-text">
-            <h1>Happier <span class="rpeople">People</span><img class="rarrow2" src="Career Graphics/dashed-line-arrow-free-png.webp" alt=""></h1>
+            <h1 class="happy">Happier <span class="rpeople">People</span><img class="rarrow2" src="Career Graphics/dashed-line-arrow-free-png.webp" alt=""></h1>
             <div class="rtext-wrapper"><h1><b><img class="rarrow" src="Career Graphics/dashed-line-arrow-free-png.webp" alt="">Happier
               <span class="rbox b1">Workplaces</span>
               <span class="rbox b2">Businesses</span>
@@ -63,12 +95,12 @@
             </div>
              <p class="rparagraph">Are you an institution looking to create happier an happier community?   
              we have helped college corporates, incubators, government bodies in the building emotionally resilient communities of more than <b>2 Million People.</b></p>
-             <button class="rbtn" onclick="window.open('kartexa.com', '_blank')">Learn More</button>
+             <button class="rbtn" onclick="window.open('https://career.kartexa.com/profile/', '_blank')">Learn More</button>
            </div>
          </div>
-        </div>
+        
      
-        <div style="width: 50%; float:right">
+        
           <div class="rcontent3">
      <img class="rone" src="Career Graphics/Group 11935-1.png" alt="">
            <img class="rtwo" src="Career Graphics/Group 11936-1.png" alt="">
@@ -80,7 +112,7 @@
             <img src="Career Graphics/Picture1.png" alt="">
            </div>
          </div>
-        </div>
+        
          <div class="rtransperent">text</div>
        </Div>
       <div class="rblank-space"></div>
@@ -108,11 +140,12 @@
       <br>
       <br>
       <div class="row-1">
+        <table></table>
   <div class="column-1">
     <table class="rstep-1">
         <tr><td><h1 class="rblack2">Step<span class="rpink2"> 1</span></h1></td></tr>
         <tr><td><img class="rfigure1" src="Career Graphics/4926149 2-1.png" alt=""></td></tr>
-        <tr><td class="rpink2"><h2>Connect with Expert</h2></td></tr>
+        <tr><td class="rpink2"><h2 class="c">Connect with Expert</h2></td></tr>
         <tr><td class="rdesc">Chat anonymously with a Edfling’s 
 expert who's here to help you and not 
 judge you</td></tr>
@@ -122,22 +155,24 @@ judge you</td></tr>
         <table class="rstep-2">
         <tr><td><h1 class="rblack2">Step<span class="rpink2"> 2</span></h1></td></tr>
         <tr><td><img class="rfigure2" src="Career Graphics/4926149 3-1.png" alt=""></td></tr>
-        <tr><td class="rpink2"><h2>Discuss your Concern</h2></td></tr>
+        <tr><td class="rpink2"><h2 class="c"> Discuss your Concern</h2></td></tr>
         <tr><td class="rdesc">Open up to your Expert in a space where you get the guidance you need, and your concerns get the attention they deserve.</td></tr>
       </table>
   </div>
   <div class="column-1"><table class="rstep-3">
         <tr><td><h1 class="rblack2">Step<span class="rpink2"> 3</span></h1></td></tr>
         <tr><td><img class="rfigure3" src="Career Graphics/4926149 1-1.png" alt=""></td></tr>
-        <tr><td class="rpink2"><h2>Unleash a better you</h2></td></tr>
+        <tr><td class="rpink2"><h2 class="c">Unleash a better you</h2></td></tr>
         <tr><td class="rdesc">With 24X7 support from our experts, bid goodbye to your old self and be on your way to becoming a better you</td></tr>
       </table></div>
+    </table><br>
+
 </div>
   </div>
 <!---------contribution  by nayeem-->
 <div class="con1"></div>
 <div class="mid">
-<h1 class="rblack2">Why <span class="rpink2">EDFLING</span></h1>
+<h1 class="mid"><br>Why <span class="rpink2">EDFLING</span></h1>
 </div>
   
 <div class="sessions-container">
@@ -157,7 +192,7 @@ judge you</td></tr>
           <ul class="list">
             <!---------issue in mob-->
             <li>
-              <img src="Career Graphics/chat.png" alt="face to face" class="sessionimg">
+              <img src="Career Graphics/f2f.png" alt="face to face" class="sessionimg">
               <div class="content">
                 <h2 class="chatf">Face to Face Sessions</h2>
                 <p class="chatfp">Get the opportunity to meet with a professional of your choice one-on-one in person.</p>
@@ -168,12 +203,12 @@ judge you</td></tr>
       </div>
       <ul class="list">
         <li>
- <img src="Career Graphics/f2f.png" alt="chat message" class="sessionimg">
+ <img src="Career Graphics/chat.png" alt="chat message" class="sessionimg">
           <div class="content">
-           <div class="content">
-                <h2 class="chath">Voice/Video Calls</h2>
-                <p class="chatp">This service allows you to speak privately with a skilled expert of your choosing,while keeping your identity anonymous. It's avaiable 24/7 from anywhere.</p>   
-              </div>
+            <h2 class="chath">Online Chat Sessions</h2>
+            <p class="chatp">You can have confidential conversations with a expert of your choice, without revealing your identity. This convenient service is accessible to you at any time 
+              and from any location.</p>   
+          </div>
         </li>
       </ul>
   </div>
@@ -327,11 +362,13 @@ judge you</td></tr>
     <button type="submit" class="subscribe-btn">Subscribe</button>
   </form>
 </div>-->
-<!--contribution by prashanthi-->
+
+	<!--contribution by prashanthi-->
+	
 <div class="p2container">
   <header>
-   <h2> <span class="p2ed">EDFLING</span>
-    <span class="ben">BENEFITS</span> </h2>
+   <h2> EDFLING</span>
+    <span class="p2ben">BENEFITS</span> </h2>
   </header>
 
 <table class="table-2">
