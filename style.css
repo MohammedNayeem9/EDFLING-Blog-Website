@@ -1617,9 +1617,11 @@
 
 .pabout {
   text-align: justify;
+  color:black;
 }
 
 .expert-link {
+   color:black;
   margin-top: 50px;
   margin-right:55%;
   justify-content: center;
