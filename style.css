@@ -5,336 +5,148 @@
   font-weight: normal;
   font-style: normal;
 }
- /*...............................prashanthi...............................*/ 
 
-  *
-  {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
-  .pnavbar{
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#ede9e9;
-    color:black;
-    padding: 10px;
-    width: 100%;
-    z-index: 10000;
-    }
-    
-    .logo img {
-    height: 50px;
-    padding-left: 50px;
-    }
-    
-    .pnav-content {
-    gap:2rem;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .pnav-content a{
-    text-decoration: none;
-    color: #000;
-    }
-    .action{
-      gap:1.5rem;
-      display: flex;
-    }
-  /*.pnav-content a:hover{
-    color: #dc3f3f;
-    }
-    .pnav-content a:active{
-    color: #dc3f3f;
-    }
-    
-    /*.pnav-buttons {
-    
-    color: #181818;
-    display: flex;
-    align-items: center;
-    padding-right: 100px;
-    }
-    .pbutton:hover {
-    background-color:  #dc3f3f; 
-    color:#fff  }/* Change button color on hover */
-    
-    
-    /*.pbutton {
-    background-color:#fdfcfc;
-    color: #dc3f3f;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    }*/
-    
-    .pmain-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-    
-    .pleft-content {
-    width: 50%;
-    margin-top: 150px;
-    padding-left: 50px;
-    }
-    .help{
-    font-size: 30px;
-    margin-top:18%;
-    }
-    .pright-content img {
-    width: 100%;
-    height: auto;
-    width: 600px;
-    height: 550px;
-    padding-top: 150px;
-    padding-right: 100px;
-        }
-        .pbtn {
-          background-color:#dc3f3f;
-          color: #fff;
-          border: none;
-          border-radius: 5px;
-          padding: 10px 70px;
-          font-size: 20px;
-          cursor: pointer;
-          transition: background-color 0.3s ease-in-out;
-          margin-left: 10px; }/* Add some margin between the buttons */
-    .pbtn1{
-          background-color:#ff8c00;
-          cursor: pointer;
-          border-color: #ff8c00;
-          color: #fff;
-          border: none;
-          border-radius: 5px;
-          padding: 10px 50px;
-          font-size: 20px;
-          cursor: pointer;
-          transition: background-color 0.3s ease-in-out;
-          margin-left: 10px; /* Add some margin between the buttons */
-      }
-      
-    .circles {
-   width: 130px;
-  height: 100px;
-  border-radius: 50%;
-  background-color:pink;
-  position: absolute;
-  z-index: -1;
+
+/*prasanthi*/ 
+.pnavbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:#ede9e9;
+color:black;
+padding: 10px;
 }
-.circles1 {
-      margin-left:8%;
-   width: 130px;
-  height: 100px;
-  border-radius: 50%;
-  background-color:#FFDAB9;
-  position: absolute;
-  z-index: -1;
+
+.logo img {
+height: 50px;
+padding-left: 50px;
 }
-.pcircle{
-  font-size:54px;
-  font-display: block;
-   position: absolute;
-   padding-top:1%;
-   padding-left:0.5%;
+
+.pnav-content {
+text-align: center;
 }
-     .pimage
-     {
-      width:200px;
-      height:200px;
-      position: relative;
-      padding: none;
-     }
-     .pcolor{
+.pnav-content a{
+text-decoration: none;
+color: #000;
+}
+.pnav-content a:hover{
+color: #dc3f3f;
+}
+.pnav-content a:active{
+color: #dc3f3f;
+}
+
+.pnav-buttons {
+
+color: #181818;
+display: flex;
+align-items: center;
+padding-right: 100px;
+}
+.pbutton:hover {
+background-color:  #dc3f3f; 
+color:#fff/* Change button color on hover */
+}
+
+.pbutton {
+background-color:#fdfcfc;
+color: #dc3f3f;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+margin: 0 10px;
+cursor: pointer;
+}
+
+.pmain-content {
+display: flex;
+ justify-content: space-between;
+align-items: center;
+
+}
+
+.pleft-content {
+width: 50%;
+margin-top: 50px;
+padding-left: 50px;
+}
+.help{
+font-size: 30px;
+}
+.pright-content img {
+width: 100%;
+height: auto;
+width: 600px;
+height: 550px;
+padding-top: 30px;
+padding-right: 100px;
+    }
+    .pbtn {
+      background-color:#dc3f3f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 70px;
       font-size: 20px;
-     }
-  
-     li{
-      list-style: none;
-      }
-     
-      a{
-      text-decoration: none;
-      color:#333;
-      font-size: 1rem;
-     }
-     a:hover{
-      color:#dc3f3f;
-     }
-     
-     
-     .pnavbar .toggle_btn
-     {
-      color:#333;
-      font-size: 1.5rem;
-      cursor:pointer;
-     }
-  
-     .action_btn
-     {
-      background-color: #dc3f3f;
-      color:#fff;
-      padding:0.5rem 1rem;
-      border:none;
-      outline: none;
-      border-radius: 20px;
-      font-size:0.8rem;
-      cursor:pointer;
-      transition: scale 0.2 ease;
-     }
-     .action_btn:hover{
-      scale:1.05;
-      color:#fff;
-  
-     }
-  .action_btn:active{
-        scale: 0.95;
-         } 
- 
-     /*drop down*/
-  /*  .dropdown_menu {
-  display: none;
-  position:absolute;
-  right:2rem;
-  top:60px;
-  width:300px;
-  height:0;
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  overflow: hidden;
-  transition:height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.dropdown_menu.open{
-  height:360px;
-}
-
-.dropdown_menu li {
-  padding: 0.7rem;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.dropdown_menu .action_btn{
-  width:100%;
-  display:flex;
-  justify-content: center;
-}
-*/
-     .dropdown_menu {
-  display: none;
-  position: absolute;
-  right: 2rem;
-  top: 60px;
-  width: 300px;
-  height: 0;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-@media (max-width: 768px) {
-  .dropdown_menu {
-    top: 50px;
-    right: 1rem;
-    width: 250px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      margin-left: 10px; /* Add some margin between the buttons */
   }
-
-  .dropdown_menu.open {
-    height: 250px;
+.pbtn1{
+      background-color:#ff8c00;
+      cursor: pointer;
+  border-color: #ff8c00;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 50px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      margin-left: 10px; /* Add some margin between the buttons */
   }
-}
-
-.dropdown_menu li {
-  padding: 0.7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.dropdown_menu .action_btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-  
-  /*responsiveness*/
-  
-     @media only screen and (max-width: 768px) and (min-width: 200px){
-     .pnavbar{
-      width: 800px;
-      height: 100px;
-     }
-     .pnav-content{
-      width: 600px;
-     }
-     .plogo img{
-      width: 200px;
-      height: 100px;
-      margin-left: -50px;
-     }
-     .pnavbar a{
-      display: inline-block;
-     }
-     .pnav-buttons{
-      margin-top: 0px;
-      margin-right: 10px;
-      color: #dc3f3f;
-    }
-     
-     .pbutton{
-      background-color: #dc3f3f;
-      color: #f4f2f2;
-      
-     }
-     .pright-content{
-      margin-top: 40px;
-     }
-     }
-  
-  
-     /*responsive design of nav bar */
-     @media(max-width: 992px)
-     {
-      .pnavbar .links, 
-      .pnavbar .action_btn{
-        display:none;
-      }
-      .pnavbar .toggle_btn{
-        display:block;
-      }
-      .dropdown_menu
-      {
-        display:block;
-      }
-      .dropdown_menu .action_btn
-      {
-        display:block;
-      }
-     }
-     @media(max-width: 992px)
-     {
-      .dropdown_menu
-      {
-        left:2rem;
-        width:unset;
-      }
-     }
- 
- 
+ .pcircle{
+font-size: 70px;
+ }
+ .pimage
+ {
+  width:200px;
+  height:200px;
+  position: relative;
+  padding: none;
+ }
+ .pcolor{
+  font-size: 20px;
+ }
+ @media only screen and (max-width: 768px) and (min-width: 200px){
+ .pnavbar{
+  width: 800px;
+  height: 100px;
+ }
+ .pnav-content{
+  width: 600px;
+ }
+ .plogo img{
+  width: 200px;
+  height: 100px;
+  margin-left: -50px;
+ }
+ .pnavbar a{
+  display: inline-block;
+ }
+ .pnav-buttons{
+  margin-top: 0px;
+  margin-right: 10px;
+  color: #dc3f3f;
+ }
+ .pbutton{
+  background-color: #dc3f3f;
+  color: #f4f2f2;
+ }
+ .pright-content{
+  margin-top: 40px;
+ }
+ }
 /*ridhi*/ 
 body{
 font-family:sans-serif;
@@ -446,19 +258,7 @@ margin-top: 20px;
   font-size:23px;
 }
 
-.rbtn{
-  background:#ff8c00;
-  border-radius: 13px;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 15px 60px 15px 60px;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  margin: 10px 30px;
-  cursor: pointer;
-  border-color: #ff8c00;
-}
+
 @media only screen and (max-width: 767px) {
   .rpattern{
     width: 10px;
@@ -1203,8 +1003,6 @@ background-color: gray;
 */
 
 
-
-
 /* CSS */
 .button-31 {
 background-color: #FB9752;
@@ -1264,29 +1062,36 @@ margin-bottom: 5rem;
 }
 
 
-
-/*  Become experts 
+.nimage{
+  width: 60%;
+  float: right;
+}
+Become experts 
+.ex-img{
+  height: 20px;
+  width: 40px;
+}
 .about .nrow{
 display: flex;
 align-items: center;
 flex-wrap: wrap;
 }
-.about .nrow .image{
+.about .nrow .nimage{
 flex:1 1 30rem;
 }
-.about .nrow .image img{
+.about .nrow .nimage .ex-img{
 width: 100%;
 border-radius: 0%;
 }
-.about .nrow .content{
+.about .nrow .ncontent{
 flex:1 1 45rem;
 padding:2rem;
 }
-.about .nrow .content h3{
+.about .nrow .ncontent h3{
 font-size: 3rem;
 color:#dc3f3f;
 }
-.about .nrow .content p{
+.about .nrow .ncontent p{
 font-size: 1.6rem;
 color:hsl(0, 1%, 50%);
 padding:1rem 0;
@@ -1349,6 +1154,11 @@ font-size: 1rem;
 }
 }*/
 /*mymoon*/
+.blogg{
+ 
+  width:100%;
+  
+}
 .blog{
 color: #dc3f3f;
 text-align: center;
@@ -1569,9 +1379,7 @@ text-align: left;
 padding-left: 50px;
 padding-top: 20px;
 height:120vh;
-background-image: url('Career Graphics/Ellipse 1.png');
- background-repeat: no-repeat;
- background-size: cover;
+background:linear-gradient(to right,rgb(235, 234, 160) 40%,white 70%)no-repeat;
 }
 .p2ben{
 color:#dc3f3f;
