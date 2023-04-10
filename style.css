@@ -1223,7 +1223,7 @@
   
   
   
-   Become experts 
+   /*Become experts 
   .about .nrow{
   display: flex;
   align-items: center;
@@ -1306,6 +1306,8 @@
   font-size: 1rem;
   }
   }
+
+*/
 
 /*  styles  for Chatbot button*/
 #chatbot-btn {
