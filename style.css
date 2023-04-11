@@ -96,7 +96,7 @@
   align-items: center;
       }
 .pright-content .img{
-  width:70%;
+  width:77%;
 }
       .pbtn {
         background-color:#dc3f3f;
@@ -262,7 +262,8 @@
    }
    .pright-content{
     margin-top: 40px;
-    
+    flex-basis:100%;
+     width:77%;
     
    }
    }
