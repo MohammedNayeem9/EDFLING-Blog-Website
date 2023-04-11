@@ -89,15 +89,14 @@
   .help{
   font-size: 30px;
   }
-.pright-content img {
- position: relative;
- width:500px;
- height:700px;
-  display:flex;
-  padding-top: 150px;
-  padding-left: 100px;
-  align-items: center
-}    
+.pright-content .img {
+      width: 100%;
+      height: auto;
+      width: 600px;
+      height: 550px;
+      padding-top: 150px;
+      padding-right: 100px;
+          }
   
       .pbtn {
         background-color:#dc3f3f;
