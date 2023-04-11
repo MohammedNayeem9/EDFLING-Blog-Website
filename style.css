@@ -85,7 +85,6 @@
   width: 50%;
   margin-top: 150px;
   padding-left: 50px;
-  padding-top: 50px;
   }
   .help{
   font-size: 30px;
@@ -95,23 +94,10 @@
  flex-basis: 60%;
   display:flex;
   align-items: center;
-
       }
-.pright-content img{
-  width:100%;
-  height:700px;
-  width:600px;
-  padding-right: 100px;
-  padding-top: 150px;
+.pright-content .img{
+  width:70%;
 }
-  /*.pright-content img {
-  width: 100%;
-  height: auto;
-  width: 600px;
-  height: 550px;
-  padding-top: 150px;
-  padding-right: 100px;
-      }*/
       .pbtn {
         background-color:#dc3f3f;
         color: #fff;
@@ -247,7 +233,7 @@
 
 /*responsiveness*/
 
-   @media only screen and (max-width: 700px) {
+   @media only screen and (max-width: 768px) and (min-width: 200px){
    .pnavbar{
     width: 800px;
     height: 100px;
@@ -276,17 +262,14 @@
    }
    .pright-content{
     margin-top: 40px;
-   flex-basis: 100%;
-
-   }
-   .pright-content .img{
-    width:77%;
+    
+    
    }
    }
 
 
    /*responsive design of nav bar */
-   @media(max-width: 700px) 
+   @media(max-width: 992px) 
    {
     .pnavbar .links, 
     .pnavbar .action_btn{
