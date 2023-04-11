@@ -91,7 +91,8 @@
   }
 .pright-content .img {
       width: 100%;
-      height: auto;
+     display:flex;
+  align-items: center;
       width: 500px;
       height: 700px;
       padding-top: 150px;
