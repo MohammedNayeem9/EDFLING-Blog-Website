@@ -1558,10 +1558,13 @@ text-decoration: none;
 
 
  /**contribution by Tejeswar**/
+.container8{
+  width:100%;}
 .container9 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width:100%;
 }
 
 .text8 {
