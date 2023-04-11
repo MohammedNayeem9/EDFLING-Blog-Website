@@ -1557,58 +1557,82 @@ text-decoration: none;
 
 
 
-/* contribution by Tejeswar
-.container {
-display: flex;
-flex-direction: row;
-align-items: center;
+ /**contribution by Tejeswar**/
+.container8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.text {
-flex: 1;
-
+.text8 {
+  flex: 1;
 }
-  .l1{
-      font-family: calibri;
-font-size:37px;
-color:deeppink;
-  }
-  .l2{
-    color:silver;
-    font-size:21px;
-    font-family: calibri;
-  }
+
+.l1 {
+  font-family: calibri;
+  font-size: 37px;
+  color: deeppink;
+}
+
+.l2 {
+  color: silver;
+  font-size: 21px;
+  font-family: calibri;
+}
+
 .input {
-margin-left: 20px;
-
+  margin-left: 20px;
 }
-.in1{
-height:35px;
-width:330px;
-border-radius:4px;
-border-color:pink;
-border:0.4;
-color:silver;
-font-family: calibri;
-font-size:19px;
+
+.in1 {
+  height: 35px;
+  width: 100%;
+  max-width: 330px;
+  border-radius: 4px;
+  border: 0.4;
+  border-color: pink;
+  color: silver;
+  font-family: calibri;
+  font-size: 19px;
+  padding: 8px;
+  box-sizing: border-box; /* Added box-sizing property to include padding in width calculation */
 }
 
 .subscribe-btn {
-font-family:calibri;
-margin-left: 10px;
-padding: 10px 25px;
-background-color: red;
-color: white;
-border: none;
-font-size:17px;
-border-radius: 4px;
-cursor: pointer;
+  font-family: calibri;
+  margin-left: 10px;
+  padding: 10px 25px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 17px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.o1{
-width:100%;
-height:auto;
+
+.o1 {
+  width: 100%;
+  height: auto;
 }
-*/
+
+/* Responsive design using media queries */
+@media (max-width: 768px) {
+  .container8 {
+    flex-direction: column;
+  }
+
+  .input {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .subscribe-btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+
 
 /*...............................prashanthi...............................*/
 .table-2 {
@@ -1711,8 +1735,7 @@ background-color:#dc3f3f;
 }
 }
 
-
-
+/** contribution by Tejeswar **/
 
 .container {
 max-width: 1400px;
