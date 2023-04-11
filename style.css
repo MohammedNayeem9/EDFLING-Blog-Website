@@ -89,15 +89,16 @@
   .help{
   font-size: 30px;
   }
-  .pright-content img {
+.pright-content img {
  position: relative;
- flex-basis: 60%;
+ width:500px;
+ height:700px;
   display:flex;
-  align-items: center;
-      }
-.pright-content .img{
-  width:77%;
-}
+  padding-top: 150px;
+  padding-left: 100px;
+  align-items: center
+}    
+  
       .pbtn {
         background-color:#dc3f3f;
         color: #fff;
@@ -262,8 +263,7 @@
    }
    .pright-content{
     margin-top: 40px;
-    flex-basis:100%;
-     width:77%;
+    
     
    }
    }
