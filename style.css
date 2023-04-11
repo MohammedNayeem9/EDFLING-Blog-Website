@@ -90,13 +90,16 @@
     font-size: 30px;
     }
     .pright-content img {
-    width: 100%;
-    height: auto;
-    width: 600px;
-    height: 550px;
-    padding-top: 150px;
-    padding-right: 100px;
-        }
+ position: relative;
+ flex-basis: 60%;
+  display:flex;
+  align-items: center;
+
+      }
+.pright-content img{
+  width:100%;
+  height:550px;
+}
         .pbtn {
           background-color:#dc3f3f;
           color: #fff;
@@ -176,6 +179,7 @@
       color:#333;
       font-size: 1.5rem;
       cursor:pointer;
+      display: none;
      }
   
      .action_btn
@@ -283,7 +287,7 @@
         display:block;
       }
      }
-     @media(max-width: 992px)
+     @media(max-width: 576px)
      {
       .dropdown_menu
       {
