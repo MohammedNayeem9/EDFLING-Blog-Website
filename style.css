@@ -1751,7 +1751,7 @@
   margin-bottom: 10px;
   text-decoration: none;
   margin-left:1%;
-  color: blue;
+  color: #333;
 }
 
 @media screen and (max-width: 600px) {
